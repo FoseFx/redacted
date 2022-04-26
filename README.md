@@ -17,6 +17,7 @@ let instance = Sample {
 };
 
 println!("{:?}", instance); // Sample { username: "FoseFx", password: "<redacted>" }
+println!("{:?}", instance.password); // "hunter2"
 
 ```
 
